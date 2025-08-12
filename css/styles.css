@@ -128,7 +128,25 @@ el gap queda a futuro ver si esto se puede llevar a movil*/
     padding: 10px;
     border-radius: 8px;
     font-size: 17px;
+    font-weight: 450;
 
+}
+/*prueba de hero vertical con media query*/
+@media (max-width:900px){
+    #hero-banner {
+    flex-direction: column;
+    justify-content: center; 
+    
+    text-align: center;
+   
+  }
+  #hero-banner article {
+    align-items: center;
+  }
+  .btn-reservas {
+    align-self: center;
+    margin-top: 10px;
+  }
 }
 /*
 #hero-banner .slide{
@@ -185,6 +203,7 @@ el gap queda a futuro ver si esto se puede llevar a movil*/
 #intro-menu h3{
    font-weight: 1000;
    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+   margin-bottom: 15px;
 }
 #intro-menu p{
     font-weight: 500;
@@ -218,8 +237,7 @@ el gap queda a futuro ver si esto se puede llevar a movil*/
     /*background-color: hsla(20, 28%, 28%, 0.43);*/
     gap: 20px;
    
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin:20px 0;
    /* padding: 20px;*/
     border-radius: 4px;
 }
@@ -232,7 +250,7 @@ grid display grid recordar width 100% y height auto*/
     display: grid;
     grid-template-columns: repeat(2,1fr);
     background-color: hsla(20, 28%, 28%, 0.43);
-    margin: 15px 0;
+    margin: 20px 0 ;
     gap: 20px;
     padding: 20px ;
     border-radius: 4px;
@@ -242,7 +260,7 @@ grid display grid recordar width 100% y height auto*/
     color: hsla(40, 10%, 90%, 1);
     font-weight: 950;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-
+    margin-bottom: 15px;
 }
 #historia p{
     color: hsla(40, 10%, 90%, 1);
@@ -270,6 +288,7 @@ grid display grid recordar width 100% y height auto*/
   color: hsla(40, 10%, 90%, 1);
   font-weight: 950;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  margin-bottom: 15px;
 
 }
 #contacto a {
@@ -288,7 +307,24 @@ grid display grid recordar width 100% y height auto*/
 }
 #adress {
   text-align: left;
+  
 }
+#adress p{
+  margin:10px 0;
+  font-weight: 500;
+}
+
+#horarios {
+  text-decoration: none;
+  color: hsla(40, 10%, 90%, 1);
+  font-weight: 500;
+  margin: 10px 0;
+}
+#horarios ul{
+  list-style: none;
+  
+}
+
 #ubicacion iframe {
   width: 100%;
   height: 400px;
