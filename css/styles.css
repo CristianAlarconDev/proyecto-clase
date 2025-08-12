@@ -15,7 +15,7 @@ body{
 
 header{
     height: 110px;
-    background-color: hsla(6, 58%, 34%, 1);
+    background-color: rgba(110, 17, 17, 0.899);
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -23,6 +23,7 @@ header{
     padding: 0 20px;
 
 }
+/*hsla(6, 58%, 34%, 1) opcional*/
 
 #logo-title {
     display: flex;
@@ -32,7 +33,9 @@ header{
 #logo-title img{
     height: 100px;
     width: auto;
-    border-radius: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+   
 }
 #logo-title h1 {
     color: hsla(30, 30%, 95%, 1);
@@ -45,8 +48,6 @@ el gap queda a futuro ver si esto se puede llevar a movil*/
     height: 100%;
     gap: 40px;
 }
-/*navegacion tiene 2 contenedores; h1 y ul, luego se agrega el logo*/
-
 #navegacion ul{
     display: flex;
     gap: 20px;
@@ -54,11 +55,6 @@ el gap queda a futuro ver si esto se puede llevar a movil*/
     align-items: center;
     margin-left: auto;
    }
-/*
-#navegacion ul a{
-     text-decoration: none;
-     color: white;
-}*/
 
 #navegacion ul li a {
   text-decoration: none;
@@ -103,12 +99,8 @@ el gap queda a futuro ver si esto se puede llevar a movil*/
 
 /*MAIN*/
 #hero-banner{
-    /*agregado para el slide 
-    position: relative;*/
 
-    /*medidas basica y alineacion del contenedror flex */
-
-    background-image: url('/ElGranAsado/img/hero2.jpg');
+    background-image: url('/ElGranAsado/img/parrilla-en-argentina.jpg');
     height: 600px;
     display: flex;
     align-items: center;
@@ -119,8 +111,8 @@ el gap queda a futuro ver si esto se puede llevar a movil*/
     background-position: center;
     background-repeat: no-repeat;
 
-    padding: 0 40px;
-    gap: 10px;
+    padding: 0 20px;
+    gap: 15px;
     border-radius: 4px;
 }
 #hero-banner article{
@@ -131,10 +123,11 @@ el gap queda a futuro ver si esto se puede llevar a movil*/
     
 
     /*estilo*/
-    background-color: rgba(0,0, 0, 0.2);
+    background-color: rgba(0,0, 0, 0.3);
     color: white;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 8px;
+    font-size: 17px;
 
 }
 /*
@@ -311,7 +304,7 @@ grid display grid recordar width 100% y height auto*/
   
   gap: 20px;
   padding: 20px 35px;
-  background-color: hsla(6, 58%, 34%, 1);
+  background-color: rgba(110, 17, 17, 0.899);
   color: hsla(40, 10%, 90%, 1);
 }
 #footer-contacto a {
