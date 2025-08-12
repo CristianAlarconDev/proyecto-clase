@@ -260,23 +260,7 @@ grid display grid recordar width 100% y height auto*/
     border-radius: 4px;
    
 }
-/*
-#historia {
-  display: flex;
-  align-items: center;
-  
-  
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px 0;
- 
-}*/
 
-/*
-#historia img{
-    border-radius: 4px;
-}*/
 
 #contacto {
   display: grid;
