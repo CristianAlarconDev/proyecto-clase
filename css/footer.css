@@ -1,0 +1,39 @@
+
+#footer {
+  display: flex;
+  
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  gap: 20px;
+  padding: 20px 35px;
+  background-color: rgba(110, 17, 17, 0.899);
+  color: hsla(40, 10%, 90%, 1);
+}
+#footer-contacto a {
+  color: hsla(40, 10%, 90%, 1);
+  text-decoration: none; /* sin subrayar, revisar si puede ir antes en la
+  cadena */
+  gap: 20px;
+}
+#footer-contacto a:hover {
+  text-decoration: underline; }
+#footer-contacto{
+    display: grid;
+}
+#footer-contacto i{
+  font-size: 18px;
+}
+#footer-redes i{
+    font-size: 28px;
+    color: hsla(40, 10%, 90%, 1);
+}
+#footer-redes {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  flex-direction: row; 
+}
+
+
+
